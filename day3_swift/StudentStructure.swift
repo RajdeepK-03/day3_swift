@@ -10,4 +10,17 @@ import Foundation
 struct Student
 {
     var StudentID: Int
+    var studentName: String
+    
+    func setValu()
+    {
+        self.StudentID = 1000
+        self.studentName = "student name here"
+    }
+    func printData()
+    {
+        print(StudentID, studentName)
+    }
+    
 }
+
